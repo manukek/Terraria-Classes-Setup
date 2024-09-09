@@ -58,7 +58,7 @@ export const MeleeMain = () => {
               <div>
                 <h1>Buffs:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBafs/sharpeningStation'}><h1 className='mt-3 text-blue-500 hover:underline'>Sharpening Station</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBafs/sharpeningStation'}><h1 className='text-blue-500 hover:underline'>Sharpening Station</h1></Link>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@ export const MeleeMain = () => {
               <div>
                 <h1>Buffs:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBaffs/sharpeningStation'}><h1 className='mt-3 text-blue-500 hover:underline'>Sharpening Station</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/3/3b/Sharpening_Station.png' /> <Link to={'/meleeBaffs/sharpeningStation'}><h1 className='text-blue-500 hover:underline'>Sharpening Station</h1></Link>
                 </div>
                 <div className='flex'>
                   <img src='https://terraria.wiki.gg/images/f/f6/Sake.png' /> <Link to={'/meleeBafs/sake'}><h1 className='mt-3 text-blue-500 hover:underline'>Sake</h1></Link>
@@ -98,7 +98,7 @@ export const MeleeMain = () => {
               <div>
                 <h1>Accessories:</h1>
                 <div className='flex'>
-                  <img src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png' /> <Link to={'/meleeAcs/warriorEmblem'}><h1 className='mt-3 text-blue-500 hover:underline'>Warrior Emblem</h1></Link>
+                  <img src='https://terraria.wiki.gg/images/d/d7/Warrior_Emblem.png' /> <Link to={'/meleeAcs/warriorEmblem'}><h1 className=' text-blue-500 hover:underline'>Warrior Emblem</h1></Link>
                 </div>
                 <div className='flex'>
                   <img src='https://terraria.wiki.gg/images/0/05/Berserker%27s_Glove.png' /> <Link to={'/meleeAcs/berserkerGlove'}><h1 className='mt-3 text-blue-500 hover:underline'>Berserker glove</h1></Link>
