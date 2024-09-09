@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import AnimatedCircles from "../circles/circles";
 import styles from '../css/App.module.scss';
 import DropdownMenu from "../dropdown/dropdown";
