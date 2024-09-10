@@ -71,6 +71,7 @@ export default {
         '150': '150ms',
       },
       colors: {
+        links: "#a0ffff",
         primary: "#18171c",
         secondary: {
           'bg': "#18171c",

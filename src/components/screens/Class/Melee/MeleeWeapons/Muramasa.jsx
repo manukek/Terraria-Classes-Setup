@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
 import styles from '../../../../css/App.module.scss'
 
-export const NightsEdge = () => {
+export const Muramasa = () => {
   return (
     <div className={styles.main}>
-        <h1><a className='font-bold'>The Nights Edge</a> is a pre-Hardmode, post-Skeletron sword. When swung, it emits fire-like purple particles, similar to the swords used in crafting it, but the effect is more subtle and does not last as long. It is notable for having, on par with Volcano, the highest base damage of a sword available before entering Hardmode.
+        <h1 className='' ><a className='font-bold'>The Muramasa</a> is a pre-Hardmode, post-Skeletron sword that has a slightly longer reach than the Phaseblade and has a fast attack speed. It is also one of the few autoswing swords that can be found during pre-Hardmode. When swung, it emits a small amount of blue light. On the Desktop version, Console version, and  Mobile version, striking an enemy with the Muramasa will generate a blue slash projectile from a random direction, hitting the enemy for 50% of the weapons damage (12 base damage).The smaller slashes also have 5 armor penetration.The Muramasa has a 1/7 (14.29%) chance of being obtained from the Locked Gold Chests found in the Dungeon, as well as a 1/7 (14.29%) chance of being obtained from Golden Lock Boxes.
 
-A purple aura comes off of the Nights Edge when swung, following the swing and increasing the range at which it can hit enemies. The aura also swings around a second time on its own, further increasing range and even covering behind the player. This aura can break Pots through walls, but cannot damage enemies there. If the blade or its aura strikes an enemy, a purple flash is created. The Nights Edge is also capable of autoswing.
+The Muramasa is one of the key ingredients in crafting the Nights Edge.
 
-Once in Hardmode, the Nights Edge can be upgraded into the True Nights Edge.
-
-Its best modifier is Legendary.</h1>
-<h1 className='text-xl mt-2'>Crafting:</h1>
-<div className='flex'>
+Its best modifier is Legendary.</h1>    
+      <div className=''>
+        <div className=''>
+          <h1 className='' >Used in</h1>
+          <div className='flex'>
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
                   <div className='flex'>
@@ -28,7 +28,7 @@ Its best modifier is Legendary.</h1>
                       <img className='w-12 h-14' src='https://terraria.wiki.gg/images/c/c2/Muramasa.png'/> <Link className='ml-1 text-sm  text-links hover:underline duration-75' >Muramasa</Link>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link to='/meleeWeapons/bladeofgrass' className='ml-2 text-sm  text-links hover:underline duration-75' >Blade of Grass</Link>
+                      <img className='w-16 h-16' src='https://terraria.wiki.gg/images/8/85/Blade_of_Grass.png'/> <Link className='ml-2 text-sm  text-links hover:underline duration-75' >Blade of Grass</Link>
                   </div>
                   <div className='flex mt-2' >
                       <img className='w-16 h-16' src='https://terraria.wiki.gg/images/c/cf/Volcano.png'/> <Link className='ml-2 text-sm  text-links hover:underline duration-75' >Volcano</Link>
@@ -44,6 +44,9 @@ Its best modifier is Legendary.</h1>
                   </div>
               </div>
           </div>
+        </div>
+      </div>
     </div>
   )
 }
+          
