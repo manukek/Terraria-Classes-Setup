@@ -71,11 +71,9 @@ export default {
         '150': '150ms',
       },
       colors: {
-        primary: "#18171c",
+        primary: "#15171f",
         secondary: {
-          'bg': "#18171c",
-          'btns': "#94b9e9,#eeaeca",
-          'text': "#ffffff",
+          'bg': "#15171f",
         },
       },
       screens: {
