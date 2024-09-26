@@ -11,16 +11,24 @@
 }
 .main{
   margin: 1.25rem;
-  height: 45.5rem;
+  min-height: 45.5rem;
+  max-height: 120vh;
   padding: 20px;
-  border: 8px solid rgba(145, 63, 1, 0.483); 
-  background-color:rgba(145, 63, 1, 0.483);
+  border: 8px solid #7d7466;
+  background-color:#15171f
   
 }
 .mainMelee{
   margin: 1.25rem;
   border: 8px solid rgba(145, 63, 1, 0.483);
   height: 150vh;
+  padding: 20px;
+  background-color:rgba(145, 63, 1, 0.483);
+}
+.Home{
+  margin: 1.25rem;
+  border: 8px solid rgba(145, 63, 1, 0.483);
+  height: 100vh;
   padding: 20px;
   background-color:rgba(145, 63, 1, 0.483);
 }

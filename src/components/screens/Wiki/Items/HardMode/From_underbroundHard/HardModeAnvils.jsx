@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from '../../../../../css/App.module.scss'
 
 export const HardModeAnvils = () => {
@@ -20,16 +21,19 @@ export const HardModeAnvils = () => {
               <div className='w-44 p-2'>
                   <h1 className='' >Ingridients</h1>
                   <div className='flex mt-2' >
-                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/b/b2/Mythril_Bar.png'/> <h1 className='ml-1 text-sm' >Mythril Bar x10</h1>
+                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/b/b2/Mythril_Bar.png'/> <h1 className='ml-1 text-sm' >Mythril Bar </h1><h1 className='ml-1 text-sm text-white/50 '>x10</h1>
                   </div>
                   <div className='flex mt-2' >
-                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/2/2e/Orichalcum_Bar.png'/> <h1 className='ml-1 text-sm' >Orichalcum Bar x12</h1>
+                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/2/2e/Orichalcum_Bar.png'/> <h1 className='ml-1 text-sm' >Orichalcum Bar </h1><h1 className='ml-1 text-sm text-white/50 '>x12</h1>
                   </div>
               </div>
               <div className='w-44 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <h1 className='text-base ml-2' >Iron Anvil</h1>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Iron Anvil</Link>
+                  </div>
+                  <div className='flex' >
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/32/Lead_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200  ' >Lead Anvil</Link>
                   </div>
               </div>
           </div>

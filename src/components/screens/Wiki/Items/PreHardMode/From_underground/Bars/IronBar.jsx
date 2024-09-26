@@ -13,7 +13,7 @@ export const IronBar = () => {
               <div className='w-44 p-2'>
                   <h1 className='w-52' >Result</h1>
                   <div className='flex'>
-                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/6/6c/Iron_Bar.png'/> <h1 className=' ml-2 text-bold' >Iron Bar</h1>
+                      <img className='w-8 h-6' src='https://terraria.wiki.gg/images/6/6c/Iron_Bar.png'/> <h1 className=' ml-2 text-bold font-bold' >Iron Bar</h1>
                   </div>
               </div>   
               <div className='w-52 p-2'>
@@ -36,7 +36,7 @@ export const IronBar = () => {
               <div className='w-52 p-2'>
                   <h1 className='' >Result</h1>
                   <div className='flex'>
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='ml-2  text-links hover:underline duration-75' >Iron Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/c/c3/Iron_Anvil.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='ml-2 hover:underline hover:text-blue-500 duration-200 ' >Iron Anvil</Link>
                   </div>
               </div>   
               <div className='w-52 p-2'>
@@ -48,7 +48,7 @@ export const IronBar = () => {
               <div className='w-52 p-2'>
                   <h1 className='' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='' src='https://terraria.wiki.gg/images/9/91/Work_Bench.png'/> <Link className='text-base ml-2  text-links hover:underline duration-75' >Work Bench</Link>
+                      <img className='' src='https://terraria.wiki.gg/images/9/91/Work_Bench.png'/> <h1 className='text-base ml-2' >Work Bench</h1>
                   </div>
               </div>
           </div>

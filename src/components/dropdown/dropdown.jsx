@@ -19,7 +19,7 @@ function DropdownMenu() {
 
       {isOpen && (
         <div
-          className="absolute top-full left-1/2 transform -translate-x-1/2 w-48 rounded-md border border-yellow-300 bg-yellow-100/50 animate-fade-in"
+          className="absolute top-full left-1/2 transform -translate-x-1/2 w-48 rounded-md border border-yellow-300 bg-yellow-100/50"
           style={{ marginTop: 4 }}
         >
           <div

@@ -3,22 +3,25 @@ import styles from '../../../../css/App.module.scss'
 
 export const Zenith = () => {
   return (
-    <div className={styles.mainMelee}>
-        <h1 className='' ><a className='font-bold'>The Zenith</a> is a Hardmode, post-Moon Lord melee weapon crafted using a variety of swords obtained throughout the games progression. When swung, the sword sprites of the Zeniths component swords fly towards enemies within a 20-tile radius of the cursor (regardless of where the cursor is on the screen), and circle back in quick, frenzied arcs. They are summoned immediately behind the player while passing through solid blocks, and three swords will appear per use (at base melee speed), with each sword sprite dealing the weapons full base damage. The Zenith also has a base 14% critical strike chance as opposed to the usual 4%.
+    <div className={styles.main}>
+        <div>
+        <h1 className='' ><a className='font-bold '>The Zenith</a> is a Hardmode, post-Moon Lord melee weapon crafted using a variety of swords obtained throughout the games progression. When swung, the sword sprites of the Zeniths component swords fly towards enemies within a 20-tile radius of the cursor (regardless of where the cursor is on the screen), and circle back in quick, frenzied arcs. They are summoned immediately behind the player while passing through solid blocks, and three swords will appear per use (at base melee speed), with each sword sprite dealing the weapons full base damage. The Zenith also has a base 14% critical strike chance as opposed to the usual 4%.
 
 Its best modifier is Legendary.</h1>    
+        </div>
+        
       <div className='mt-4 flex justify-between'>
-        <div className=' w-96'>
+        <div className='p-2'>
           <h1 className='' >Crafting</h1>
           <div className='flex'>
-              <div className='w-44 p-2'>
-                  <h1 className='t' >Result</h1>
+              <div className='w-44 p-2 border'>
+                  <h1 className='w-40 text-center font-bold border ' >Result</h1>
                   <div className='flex'>
-                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/6/66/Zenith.png'/> <h1 className='mt-2 ml-2' >Zenith</h1>
+                      <img className='w-12 h-12' src='https://terraria.wiki.gg/images/6/66/Zenith.png'/> <h1 className='mt-2 ml-2 font-bold' >Zenith</h1>
                   </div>
               </div>   
-              <div className='w-44 p-2'>
-                  <h1 className='' >Ingridients</h1>
+              <div className='w-44 p-2 border ml-2'>
+                  <h1 className='w-40 text-center font-bold border ' >Ingridients</h1>
                   <div className='flex mt-2' >
                       <img className='w-8 h-8' src='https://terraria.wiki.gg/images/4/4d/Terra_Blade.png'/> <h1 className='ml-1 text-sm' >Terra Blade</h1>
                   </div>
@@ -50,13 +53,13 @@ Its best modifier is Legendary.</h1>
                       <img className='w-8 h-8' src='https://terraria.wiki.gg/images/8/8b/Copper_Shortsword.png'/> <h1 className='ml-1 text-sm' >Copper Shortsword</h1>
                   </div>
               </div>
-              <div className='w-44 p-2'>
-                  <h1 className='' >Crafting station</h1> 
+              <div className='w-44 p-2 ml-2 border'>
+                  <h1 className='w-40 text-center font-bold border' >Crafting station</h1> 
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2' >Mythril Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/3/3d/Mythril_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Mythril Anvil</Link>
                   </div>
                   <div className='flex' >
-                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2' >Orichalcum Anvil</Link>
+                      <img className='w-8 h-4' src='https://terraria.wiki.gg/images/d/dc/Orichalcum_Anvil.png'/> <Link to='/wiki/items/hardModeAnvils' className='text-base ml-2  hover:underline hover:text-blue-500 duration-200 ' >Orichalcum Anvil</Link>
                   </div>
               </div>
           </div>
