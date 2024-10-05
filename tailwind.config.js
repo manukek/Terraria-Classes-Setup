@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'selector',
   theme: {
     extend: {
       backdropFilter: {
@@ -71,9 +72,11 @@ export default {
         '150': '150ms',
       },
       colors: {
-        primary: "#15171f",
+        primary: "#18171c",
         secondary: {
-          'bg': "#15171f",
+          'bg': "#18171c",
+          'btns': "#94b9e9,#eeaeca",
+          'text': "#ffffff",
         },
       },
       screens: {

@@ -13,27 +13,27 @@ Wings additionally grant immunity from fall damage (except when overridden by th
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img src='https://terraria.wiki.gg/images/b/bf/Flame_Wings.png'/> <h1 to='/meleeWeapons/nightsEdge' className='mt-2 ml-2 font-bold' >Flame Wings</h1>
+                    <img src='/Flame_Wings.webp'/> <h1 to='/meleeWeapons/nightsEdge' className='mt-2 ml-2 font-bold' >Flame Wings</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='w-6 h-6' src='https://terraria.wiki.gg/images/a/a3/Soul_of_Flight.png'/> <h1 className='ml-2 font-bold ' >Soul of Flight</h1><h1 className='ml-1  text-white/75'>x20</h1>
+                    <img className='w-6 h-6' src='/Soul_of_Flight.webp'/> <h1 className='ml-2 font-bold ' >Soul of Flight</h1><h1 className='ml-1  text-white/75'>x20</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img src='https://terraria.wiki.gg/images/f/f3/Fire_Feather.png'/> <h1  className='ml-1 text-sm font-bold'>Fire Feather</h1>
+                    <img src='/Fire_Feather.webp'/> <h1  className='ml-1 text-sm font-bold'>Fire Feather</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

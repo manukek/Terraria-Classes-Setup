@@ -14,27 +14,27 @@ The Flask of Ichor will not inflict the Ichor debuff in PvP scenarios.</h1>
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img className='' src='https://terraria.wiki.gg/images/7/71/Flask_of_Ichor.png'/> <h1 className='ml-2 font-bold' >Flask of Ichor</h1>
+                    <img className='' src='/Flask_of_Ichor.webp'/> <h1 className='ml-2 font-bold' >Flask of Ichor</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/1/16/Bottled_Water.png'/> <h1 className='ml-1 ' >Botteled water</h1>
+                    <img className='' src='/Bottled_Water.webp'/> <h1 className='ml-1 ' >Botteled water</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/4/47/Ichor.png'/> <h1 className='ml-2 text-sm' >Ichor</h1><h1 className='ml-1 text-sm text-white/75'>x2</h1>
+                    <img className='' src='/Ichor.webp'/> <h1 className='ml-2 text-sm' >Ichor</h1><h1 className='ml-1 text-sm text-white/75'>x2</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/6/6a/Imbuing_Station.png'/> <h1 className='text-base ml-2' >Imbuing Station</h1>
+                    <img className='' src='/Imbuing_Station.webp'/> <h1 className='text-base ml-2' >Imbuing Station</h1>
                   </div>
               </div>
           </div>

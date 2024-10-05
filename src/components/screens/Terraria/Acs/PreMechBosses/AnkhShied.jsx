@@ -11,27 +11,27 @@ When equipped, the Ankh Shield provides immunity to all of the following debuffs
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20] text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img src='https://terraria.wiki.gg/images/9/99/Ankh_Shield.png'/> <h1 to='/meleeWeapons/nightsEdge' className='mt-2 ml-2 font-bold' >Ankh Shield</h1>
+                    <img src='/Ankh_Shield.webp'/> <h1 to='/meleeWeapons/nightsEdge' className='mt-2 ml-2 font-bold' >Ankh Shield</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20] text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                  <img src='https://terraria.wiki.gg/images/7/7a/Obsidian_Shield.png'/> <h1 to='/acs/FrostsparkBoots' className='mt-2 ml-2 ' >Obsidian Shield</h1>
+                  <img src='/Obsidian_Shield.webp'/> <h1 to='/acs/FrostsparkBoots' className='mt-2 ml-2 ' >Obsidian Shield</h1>
                   </div>
                   <div className='flex mt-3' >
-                  <img src='https://terraria.wiki.gg/images/d/d5/Ankh_Charm.png'/> <h1 to='/acs/LavaWaders' className='ml-1  '>Ankh Charm</h1>
+                  <img src='/Ankh_Charm.webp'/> <h1 to='/acs/LavaWaders' className='ml-1  '>Ankh Charm</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20] text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

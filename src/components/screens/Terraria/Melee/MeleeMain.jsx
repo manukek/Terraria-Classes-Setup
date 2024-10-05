@@ -15,8 +15,8 @@ export const MeleeMain = () => {
         as using the weapons and dealing decent damage with them doesnt require any help.
       </h1>
       <div className="flex justify-start" >
-        <img className="mt-3 mr-3" src='https://terraria.wiki.gg/images/f/f9/Solar_Flare_armor.png'/>
-        <img className="mt-1" src='https://terraria.wiki.gg/images/6/66/Zenith.png'/>
+        <img className="mt-3 mr-3" src='/Solar_Flare_armor.webp'/>
+        <img className="mt-1" src='/Zenith.webp'/>
       </div>
       <div className='flex justify-center'>
           <h1 className='text-2xl '>Guide</h1>

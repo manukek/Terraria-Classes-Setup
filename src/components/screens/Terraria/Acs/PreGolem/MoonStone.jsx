@@ -20,7 +20,7 @@ export const MoonStone = () => {
       <div className='border border-gray-600 rounded-md p-2 w-3/6 bg-[#101017]' >
         <div>
           <div className='mt-2 flex'>
-            <img src='https://terraria.wiki.gg/images/0/0b/Vampire.gif'/> <h1 className='mt-2 mx-2'>Vampire</h1> <h1 className='mt-2 text-white/75'>1%</h1>
+            <img src='/Vampire.webp'/> <h1 className='mt-2 mx-2'>Vampire</h1> <h1 className='mt-2 text-white/75'>1%</h1>
           </div>
         </div>
       </div>
@@ -30,27 +30,27 @@ export const MoonStone = () => {
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                     <img className='' src='https://terraria.wiki.gg/images/c/c5/Celestial_Stone.png'/> <Link to='/acs/CelestialStone' className='mt-2 ml-2 hover:underline hover:text-blue-500 duration-200  ' >Celestial Stone</Link>
+                     <img className='' src='/Celestial_Stone.webp'/> <Link to='/acs/CelestialStone' className='mt-2 ml-2 hover:underline hover:text-blue-500 duration-200  ' >Celestial Stone</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-2' >
-                    <img className='' src='https://terraria.wiki.gg/images/0/0a/Sun_Stone.png'/> <h1 className='ml-1 text-sm ' >Sun Stone</h1>
+                    <img className='' src='/Sun_Stone.webp'/> <h1 className='ml-1 text-sm ' >Sun Stone</h1>
                   </div>
                   <div className='flex mt-2' >
-                    <img className='' src='https://terraria.wiki.gg/images/3/35/Moon_Stone.png'/> <h1 className='ml-1 text-sm font-bold' >Moon Stone</h1>
+                    <img className='' src='/Moon_Stone.webp'/> <h1 className='ml-1 text-sm font-bold' >Moon Stone</h1>
                   </div>
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

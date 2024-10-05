@@ -14,27 +14,27 @@ All four listed boots are interchangeable when crafting Spectre Boots.</h1>
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                      <img className='w-8 h-7' src='https://terraria.wiki.gg/images/2/28/Spectre_Boots.png'/> <Link to='/acs/SpectreBoots' className='ml-2 hover:underline hover:text-blue-500 duration-200' >Spectre Boots</Link>
+                      <img className='w-8 h-7' src='/Spectre_Boots.webp'/> <Link to='/acs/SpectreBoots' className='ml-2 hover:underline hover:text-blue-500 duration-200' >Spectre Boots</Link>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/2/29/Hermes_Boots.png'/> <h1  className='ml-1 font-bold' >Hermes Boots</h1>
+                      <img className='' src='/Hermes_Boots.webp'/> <h1  className='ml-1 font-bold' >Hermes Boots</h1>
                   </div>
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/2/2b/Rocket_Boots.png'/> <Link to='/acs/RocketBoots' className='ml-1 hover:underline hover:text-blue-500 duration-200' >Rocket Boots</Link>
+                      <img className='' src='/Rocket_Boots.webp'/> <Link to='/acs/RocketBoots' className='ml-1 hover:underline hover:text-blue-500 duration-200' >Rocket Boots</Link>
                   </div>
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                      <img className='' src='https://terraria.wiki.gg/images/1/17/Tinkerer%27s_Workshop.png'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
+                      <img className='' src='/Tinkerer_Workshop.webp'/> <h1 className='text-base ml-2' >Tinkerers Workshop</h1>
                   </div>
               </div>
           </div>

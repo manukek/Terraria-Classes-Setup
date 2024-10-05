@@ -9,25 +9,25 @@ export const PreHardModeAcs = () => {
                     <h1 className="font-bold" >Mixed Accessories:</h1>
                     <div className='p-2' > 
                       <div className='flex '>
-                        <img className='' src='https://terraria.wiki.gg/images/1/12/Brain_of_Confusion.png'/> <Link to='/acs/BrainOfConfusion'  className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Brain of Confusion</Link>
+                        <img className='' src='/Brain_of_Confusion.webp'/> <Link to='/acs/BrainOfConfusion'  className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Brain of Confusion</Link>
                       </div>
                       <div className='flex mt-2'>
-                         <img src='https://terraria.wiki.gg/images/5/54/Shield_of_Cthulhu.png'/> <Link to='/acs/ShieldOfCthulhu' className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Shield of Cthulhu</Link>
+                         <img src='/Shield_of_Cthulhu.webp'/> <Link to='/acs/ShieldOfCthulhu' className='ml-1 hover:underline hover:text-blue-500 duration-200 ' >Shield of Cthulhu</Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img className="h-7"  src='https://terraria.wiki.gg/images/e/e4/Worm_Scarf.png' /> <Link to='/acs/WormScarf' className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2'>Worm Scarf</Link>
+                        <img className="h-7"  src='/Worm_Scarf.webp' /> <Link to='/acs/WormScarf' className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2'>Worm Scarf</Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/2/2c/Lightning_Boots.png' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/LightningBoots'}>Lightning Boots</Link>
+                        <img  src='/Lightning_Boots.webp' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/LightningBoots'}>Lightning Boots</Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/b/ba/Terraspark_Boots.png' /> <Link className='h-6 hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/TerrasparkBoots'}>Terraspark Boots</Link>
+                        <img  src='/Terraspark_Boots.webp' /> <Link className='h-6 hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/TerrasparkBoots'}>Terraspark Boots</Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/4/4a/Shark_Tooth_Necklace.png' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/SharkToothNecklace'}>Shark Tooth Necklace</Link>
+                        <img  src='/Shark_Tooth_Necklace.webp' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/SharkToothNecklace'}>Shark Tooth Necklace</Link>
                       </div>
                       <div className='flex mt-2'>
-                        <img  src='https://terraria.wiki.gg/images/e/e0/Fledgling_Wings.png' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/FledglingWings'}>Fledgling Wings</Link>
+                        <img  src='/Fledgling_Wings.webp' /> <Link className='h-6  hover:underline hover:text-blue-500 duration-200 ml-2' to={'/acs/FledglingWings'}>Fledgling Wings</Link>
                       </div>
                     </div>
                   </div>

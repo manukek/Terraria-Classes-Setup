@@ -9,30 +9,30 @@ export const WrathPotion = () => {
         <div className='border border-gray-600 rounded-md p-2 w-3/6 h-44 bg-[#101017]'>
           <div className='flex'>
               <div className='w-52'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Result</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Result</h1>
                   <div className='flex mt-3'>
-                    <img src='https://terraria.wiki.gg/images/d/d7/Wrath_Potion.png'/> <h1 className='mt-2 ml-2' >Wrath Potion</h1>
+                    <img src='/Wrath_Potion.webp'/> <h1 className='mt-2 ml-2' >Wrath Potion</h1>
                   </div>
               </div>   
                 <div className='border border-gray-300 h-40 ml-2' >
               </div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Ingridients</h1>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Ingridients</h1>
                   <div className='flex mt-3' >
-                    <img src='https://terraria.wiki.gg/images/1/16/Bottled_Water.png'/> <h1 className='ml-2' >Bottled Water</h1>
+                    <img src='/Bottled_Water.webp'/> <h1 className='ml-2' >Bottled Water</h1>
                   </div>
                   <div className='flex mt-3' >
-                    <img src='https://terraria.wiki.gg/images/a/ac/Ebonkoi.png'/> <h1 className='ml-2' >Ebonkoi</h1>
+                    <img src='/Ebonkoi.webp'/> <h1 className='ml-2' >Ebonkoi</h1>
                   </div> 
                   <div className='flex mt-3' >
-                    <img className='' src='https://terraria.wiki.gg/images/c/c8/Deathweed.png'/> <h1 className='ml-2 ' >Deathweed</h1>
+                    <img className='' src='/Deathweed.webp'/> <h1 className='ml-2 ' >Deathweed</h1>
                   </div>                      
               </div>
               <div className='border border-gray-300 h-40 ml-2' ></div>
               <div className='w-52 ml-2'>
-                  <h1 className='font-bold border border-gray-600 bg-slate-100  text-center rounded-md mb-1'>Crafting station</h1> 
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]  text-center rounded-md mb-1'>Crafting station</h1> 
                   <div className='flex mt-3' >
-                     <img className='' src='https://terraria.wiki.gg/images/4/40/Bottle_%28crafting_station%29.png'/> <h1 className='text-base ml-2' >Placed Bottle</h1>
+                     <img className='' src='/Bottle_crafting_station.webp'/> <h1 className='text-base ml-2' >Placed Bottle</h1>
                   </div>
               </div>
           </div>

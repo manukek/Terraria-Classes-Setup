@@ -1,0 +1,45 @@
+import { Link } from 'react-router-dom'
+import styles from '../../../../css/App.module.scss'
+
+export const SpinalTap = () => {
+  return (
+    <div className={styles.main}>
+        <h1 className='p-2 border border-gray-600  rounded-md bg-[#101017]' ><a className='font-bold  '>The Spinal Tap</a> is a pre-Hardmode, post-Skeletron whip crafted from Cobwebs and Bones. Like other whips, it causes minion</h1>    
+      <div>
+      <h1 className='font-bold my-2 py-1 w-3/6 text-center border border-gray-600  rounded-md bg-[#101017] mt-5'>Crafting</h1>
+        <div className='border border-gray-600 rounded-md p-2 w-3/6 h-40 bg-[#101017]'>
+          <div className='flex'>
+              <div className='w-52'>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]   text-center rounded-md mb-1'>Result</h1>
+                  <div className='flex mt-3'>
+                    <img className='' src='https://terraria.wiki.gg/images/4/4d/Spinal_Tap.png'/> <h1 className=' ml-2 font-bold' >Spinal Tap</h1>
+                  </div>
+              </div>   
+                <div className='border border-gray-300 h-36 ml-2' >
+              </div>
+              <div className='w-52 ml-2'>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]   text-center rounded-md mb-1'>Ingridients</h1>
+                  <div className='flex mt-3' >
+                    <img className='' src='https://terraria.wiki.gg/images/2/2c/Bone.png'/> <h1 className='ml-1 text-sm ' >Bone</h1><h1 className='ml-1 text-sm text-white/75'>x90</h1>
+                  </div>
+                  <div className='flex mt-3' >
+                    <img className='' src='https://terraria.wiki.gg/images/4/48/Cobweb.png'/> <h1 className='ml-1 text-sm ' >Cobweb</h1><h1 className='ml-1 text-sm text-white/75'>x55</h1>
+                  </div>
+              </div>
+              <div className='border border-gray-300 h-36 ml-2' ></div>
+              <div className='w-52 ml-2'>
+                  <h1 className='font-bold border border-gray-600  dark:bg-slate-100 bg-[#1c1f20]   text-center rounded-md mb-1'>Crafting station</h1> 
+                  <div className='flex' >
+                      <img className='' src='https://terraria.wiki.gg/images/9/91/Work_Bench.png'/> <Link to='/wiki/preHardMode/preHardModeAnvils' className='text-base ml-2   hover:underline hover:text-blue-500 duration-200  ' >Iron Anvil</Link>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+          
+
+
+         
